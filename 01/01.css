@@ -1,0 +1,67 @@
+    /*
+    *{
+    border: 1px solid red;
+}
+*/
+
+.box{
+    background-color: rgb(215, 231, 247);
+    margin: 0 10rem;
+}
+
+.list{
+    list-style: none;
+    padding: 1.5rem;
+}
+
+
+.list div{
+    border: 1px;
+    display: flex;
+    justify-content: right;
+}
+
+.list a{
+    border: 1px solid  rgb(41, 130, 231);
+    border-radius: 4px;
+    margin: 0 5px;
+    color : white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(41, 130, 231);
+}
+
+.list button{
+    margin-top: 10px;
+    margin: 0px 0rem;
+}
+
+.boxInside{
+    background-color: white;
+    margin: 2rem 1rem;
+    padding: 1rem;
+}
+
+.boxInside h4{
+    font-size: 50px;
+    margin: 0;
+}
+
+.boxInside div{
+    display: flex;
+    font-size: 20px;
+    margin: 0;
+}
+
+.boxLast{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+
+}
+
+.boxLast p{
+    width: 80%;
+    color: white;
+}
