@@ -6,7 +6,12 @@
 
     // JS 함수 작성 방법 2 : 화살표 함수
     const handleClick = (n) => {
-        document.querySelector("#msgArea").innerHTML = `<h2>버튼 ${n}이 눌러졌습니다.</h2>`; 
+        let msg ;
+        if ( n==1) msg = "안녕하세요";
+        else msg = "안녕히 가세요";
+
+        document.querySelector("#msgArea").innerHTML = `<h2>${msg}.</h2>`; 
+
     }
 
     // 메세지 영역 가져오기 1
